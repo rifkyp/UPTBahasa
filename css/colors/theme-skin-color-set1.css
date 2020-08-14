@@ -1208,8 +1208,8 @@ fieldset[disabled] .btn-gray.btn-theme-colored2.focus {
 .btn-theme-colored2.active,
 .open > .dropdown-toggle.btn-theme-colored2 {
   color: #fff;
-  background-color: #cc0b3c;
-  border-color: #c20b39;
+  background-color: #202c45;
+  border-color: #202c45;
 }
 .btn-theme-colored2:active:hover,
 .btn-theme-colored2.active:hover,
