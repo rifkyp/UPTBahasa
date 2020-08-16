@@ -7089,7 +7089,7 @@ blockquote p {
     font-size: 18px;
   }
 }
-@media only screen and (max-width: px) {
+@media only screen and (max-width: 768px) {
   .cd-timeline-simple .cd-timeline-block .cd-timeline-content .cd-date {
     font-size: 14px;
   }
@@ -7111,7 +7111,7 @@ blockquote p {
 }
 .vertical-masonry-timeline .each-masonry-item .timeline-block {
   background: #fff none repeat scroll 0 0;
-  border: 3px solid #d7e4ed;
+  border: 1px solid #d7e4ed;
   height: 100%;
   padding: 20px;
   position: relative;
