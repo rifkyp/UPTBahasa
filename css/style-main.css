@@ -7737,6 +7737,7 @@ body.has-fixed-footer .main-content {
 
 .buatsearch {
   padding-top: 5px;
+  padding-bottom: 5px;
 }
 
 input {
@@ -7756,7 +7757,7 @@ input[type=search] {
   background: url(search.png) no-repeat 9px center;
   border: solid 1px #ccc;
   padding-right: 10px;
-  width: 55px;
+  width: 25px; height: 20px;
   
   -webkit-border-radius: 10em;
   -moz-border-radius: 10em;
@@ -7767,7 +7768,7 @@ input[type=search] {
   transition: all .5s;
 }
 input[type=search]:focus {
-  width: 130px;
+  width: 150px;
   background-color: #208000;
   border-color: #208000;
   
@@ -7786,8 +7787,8 @@ input::-webkit-input-placeholder {
 
 /* isicari */
 #isicari input[type=search] {
-  width: 20px;
-  padding-left: 7px;
+  width: 25px;
+  padding-left: 2px;
   color: transparent;
   cursor: pointer;
 }
@@ -7795,7 +7796,7 @@ input::-webkit-input-placeholder {
   background-color: #208000;
 }
 #isicari input[type=search]:focus {
-  width: 130px;
+  width: 150px;
   padding-left: 32px;
   color: #000;
   background-color: #fff;
